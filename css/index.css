@@ -69,6 +69,32 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+     /* border: 1px solid red; */
+}
+
+header {
+    margin-top: 25px;
+	position: fixed;
+	top:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav {
+	padding-top: 5px;
+	}
+
+header nav a {
+    margin: 0 40px;
+    color: black;
+	text-decoration: none;
+}
+
+.jumbo {
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
 
 .top-content {
@@ -104,12 +130,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +208,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-top-content {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed black;
+    padding: 0 18px 20px;
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-middle-content-text {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin: 30px 0;
+}
+
+.about-middle-content-text h2 {
+    padding-top: 15px;
+}
+
+.about-middle-content-text button {
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 110px;
+    height: 35px;
+    background: none;
+}
+
+.about-bottom-content {
+    padding: 0 25px 20px;
+    margin: 15px 0;
 }
